@@ -5,12 +5,12 @@ with open('logins.txt', 'r') as src:
        for line in src:
            dest.write('%s%s%s\n' % ("{\"", line.rstrip('\n'), "\"},"))
 
-f = open('login.json','r')
+f = open('login.txt','r')
 filedata = f.read()
 f.close()
 
 newdata = filedata.replace(":","\" : \"")
 
-f = open('login.txt','w')
+f = open('login.json','w')
 f.write(newdata)
 f.close()
