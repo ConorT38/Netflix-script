@@ -8,7 +8,7 @@ In this project, a large number of Netflix accounts were made public, this scrip
 <p>- Download Selenium WebDriver from <a href="http://www.seleniumhq.org/download/">Here.</a></p>
 <p>- install and run jar, then run <code>webdriver-manager start</code> and then <code>webdriver-manager update</code></p>
 ## ProtractorJs
-<p>- Downlaod ProtractorJS using npm (if you don't have that, download it too <a href="https://www.npmjs.com/">here</a> by using <code>npm install -g protractor</code></p>
+<p>- Downlaod ProtractorJS using npm<code>npm install -g protractor</code> (if you don't have npm, download it too <a href="https://www.npmjs.com/">here</a>) </p>
 
 # Run file
 <p>To run the file now, simply go into the director of the conf.js folder and type in <code>protractor conf.js -x</code></p> 
